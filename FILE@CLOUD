@@ -1,0 +1,7 @@
+echo "# FILE-1099" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AYZ5009/FILE-1099.git
+git push -u origin main
